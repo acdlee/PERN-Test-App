@@ -47,3 +47,6 @@ Then startup the frontend (again, same command as the previous section).
 
 ### Result
 You should see Christmas, Halloween, and Easter on http://localhost:5173.
+
+## What's Next?
+For this repo, the next step is to containerize the application with Docker. The end result will (hopefully) spin-up the entire application with just a ``docker-compose up`` command.
