@@ -30,7 +30,7 @@ Clone the repo locally and navigate to the 'backend' directory. Install dependec
 ``$npm i``
 
 Then install the development dependencies: \
-``$npm i dotenv nodemon``
+``$npm i --save-dev dotenv nodemon``
 
 Create a .env file in the root of the backend directory with the environment variables PG_USER, PG_PASS, and PG_PORT using values from the previous section. Add one last environment variable PORt=3000.
 
