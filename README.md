@@ -1,5 +1,5 @@
 ![image](https://github.com/user-attachments/assets/ae0082b5-4f58-4b0f-a3d5-6edb979c205d)
-# PostreSQL | Express.js | React.js | Node.js - Test Application
+# PostgreSQL | Express.js | React.js | Node.js - Test Application
 A PERN stack application skeleton.
 
 ## Description
