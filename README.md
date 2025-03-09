@@ -5,11 +5,11 @@ A PERN stack application skeleton.
 ## Description
 A skeleton of an application using **PostgreSQL (database)**, **Express (backend)**, **React (frontend)**, and **Node.js (runtime environment)**.
 The purpose of this application is to offer a relatively simple demonstration of the PERN stack.
-The application itself displays three holidays in a React component, fetched from an Express API, which queries data from a PostreSQL database.
+The application itself displays three holidays in a React component, fetched from an Express API, which queries data from a PostgreSQL database.
 
 ## Setup
 ### Database
-Download and install <a href="https://www.postgresql.org/download/">PostreSQL</a>. No need to setup StackBuilder (just close the install wizard).
+Download and install <a href="https://www.postgresql.org/download/">PostgreSQL</a>. No need to setup StackBuilder (just close the install wizard).
 
 Launch pgAdmin and take note of your username, password, and port number. 
 
@@ -32,7 +32,7 @@ Clone the repo locally and navigate to the 'backend' directory. Install dependec
 Then install the development dependencies: \
 ``$npm i --save-dev dotenv nodemon``
 
-Create a .env file in the root of the backend directory with the environment variables PG_USER, PG_PASS, and PG_PORT using values from the previous section. Add one last environment variable PORt=3000.
+Create a .env file in the root of the backend directory with the environment variables PG_USER, PG_PASS, and PG_PORT using values from the previous section. Add one last environment variable PORT=3000.
 
 Startup the backend with the following command: \
 ``$npm run dev``
